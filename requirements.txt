@@ -1,5 +1,4 @@
-joblib==1.5.0
-joblib==1.4.2
+joblib
 langchain_core==0.3.72
 langchain_google_genai==2.1.9
 matplotlib==3.10.5
