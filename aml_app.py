@@ -95,6 +95,7 @@ def user_input_features():
     received_currency = st.sidebar.selectbox("Received Currency", ('USD', 'EUR', 'GBP', 'JPY', 'AUD', 'CAD'))
     sender_bank_loc = st.sidebar.selectbox("Sender Bank Location", ('US', 'DE', 'GB', 'AU', 'CA', 'JP'))
     receiver_bank_loc = st.sidebar.selectbox("Receiver Bank Location", ('US', 'DE', 'GB', 'AU', 'CA', 'JP'))
+    
     st.sidebar.subheader("Historical Account Behavior")
     sender_txn_count = st.sidebar.number_input("Sender's Past Transaction Count", min_value=0, step=1)
     sender_total_amt = st.sidebar.number_input("Sender's Total Past Transaction Amount", min_value=0.0, format="%.2f")
